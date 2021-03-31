@@ -1,0 +1,16 @@
+a{
+  background-color: ivory;
+  padding:10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:black;
+}
+.red{
+  color:red;
+}
+
+img{
+  width:300px;
+  display:none;
+}
