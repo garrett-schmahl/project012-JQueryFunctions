@@ -41,4 +41,17 @@ $(document).ready(function() {
     $("#more_stuff_contain p").text(value);
   })
   .keyup();
+
+  $("#check_box_contain input").change(function() {
+    var $input = $( this );
+    $("#check_box_contain p").html( ".attr( 'checked' ): <b>" + $input.attr( "checked" ) + "</b><br>" +
+      ".prop( 'checked' ): <b>" + $input.prop( "checked" ) + "</b><br>" +
+      ".is( ':checked' ): <b>" + $input.is( ":checked" ) + "</b>" );
+  })
+  .change();
+
+  // function(e){
+  //e.preventDefault() }
+
+  
 })
